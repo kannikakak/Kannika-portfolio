@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Kannika Kak | Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Kannika Kak, a full-stack web developer specializing in modern web technologies.">
+<meta name="keywords" content="Kannika Kak, Web Developer, Portfolio, Full Stack, HTML, CSS, JavaScript, React, Laravel">
+<meta name="author" content="Kannika Kak">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph for Social Sharing -->
+<meta property="og:title" content="Kannika Kak | Web Developer Portfolio">
+<meta property="og:description" content="Explore my web development projects and skills.">
+<meta property="og:image" content="https://kannikakak-portfolio.netlify.app/Images/nika.jpg">
+<meta property="og:url" content="https://kannikakak-portfolio.netlify.app/">
+<meta property="og:type" content="website">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://kannikakak-portfolio.netlify.app/" />
+    
+    <!-- ✅ External CSS and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Kannika.</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievement">Achievement</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                  <li><a href="certificate.html " target="_blank">My Certificate</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm <span class="accent-text shimmer">Kannika Kak</span></h1>
+                    <h2> Web Developer-Intern</h2>
+                    <p>I am a hardworking, self-motivated, flexible, and reliable individual with a strong ability to adapt to new challenges. I possess excellent communication skills and a strong sense of responsibility, complemented by attention to detail and effective time management.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"  target="_blank"class="social-icon" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:kannikakak@example.com" target="_blank" class="social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/kakkannika" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    
+                    <a href="../Images/Kak_Kannika_CV Resume.pdf" target="_blank" class="cta-button">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+                
+                 <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-shape"></div>
+                    <img src="../Images/Kannika_kak.jpg" alt="Kannika Kak - Full Stack Developer Profile Photo" class="profile-img">
+                </div>
+           
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <div class="section-header">
+      <h2>My Projects</h2>
+      <p>Explore a curated list of my mobile and web development projects, showcasing real-world problem solving, UI/UX design, and full-stack development.</p>
+    </div>
+
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Development</button>
+      <button class="filter-btn" data-filter="mobile">Mobile Development</button>
+      <button class="filter-btn" data-filter="data">Data Science</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Web Projects -->
+      <div class="project-card" data-category="web">
+        <div class="icon"><i class="fas fa-shopping-cart"></i></div>
+        <div class="project-body">
+          <h4>E-Commerce Platform</h4>
+          <p>Responsive online store using HTML, CSS, and Bootstrap with cart and checkout.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn">View Demo</a>
+            <a href="#" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web">
+        <div class="icon"><i class="fas fa-car"></i></div>
+        <div class="project-body">
+          <h4>Parking Management System</h4>
+          <p>Laravel app to manage parking tickets and logs with Tailwind CSS and MySQL.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Laravel</span>
+            <span class="tech-tag">Tailwind</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn">View Demo</a>
+            <a href="#" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web">
+        <div class="icon"><i class="fas fa-shirt"></i></div>
+        <div class="project-body">
+          <h4>Clothes Management System</h4>
+          <p>POS system using Laravel and ReactJS to manage products, stock, and sales.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Laravel</span>
+            <span class="tech-tag">Tailwind</span>
+            <span class="tech-tag">React JS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn">View Demo</a>
+            <a href="#" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Projects -->
+      <div class="project-card" data-category="mobile">
+        <div class="icon"><i class="fas fa-flag-checkered"></i></div>
+        <div class="project-body">
+          <h4>Race Track App</h4>
+          <p>Flutter app with Firebase backend to monitor real-time racing statistics.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Firebase</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn">View Demo</a>
+            <a href="https://github.com/kakkannika/RACE-TRACKING-APP" target="_blank" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="mobile">
+        <div class="icon"><i class="fas fa-book-open-reader"></i></div>
+        <div class="project-body">
+          <h4>Grade 12 Study App</h4>
+          <p>Subject-based study app to help Grade 12 students with exam preparation.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Dart</span>
+          </div>
+          <div class="project-links">
+            <a href="https://youtu.be/WQQMu-x82UY?si=jWyPYaj5-0QGKJT_" target="_blank" class="btn">View Demo</a>
+            <a href="#" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="mobile">
+        <div class="icon"><i class="fas fa-map-location-dot"></i></div>
+        <div class="project-body">
+          <h4>Tourism Mobile App</h4>
+          <p>Helps tourists explore destinations with maps, photos, and local info.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Dart</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn">View Demo</a>
+            <a href="https://github.com/kakkannika/Capstone-Project" target="_blank" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Science -->
+      <div class="project-card" data-category="data">
+        <div class="icon"><i class="fas fa-chart-line"></i></div>
+        <div class="project-body">
+          <h4>Leave Prediction System</h4>
+          <p>Python + Pandas based model to predict employee leave patterns.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Jupyter</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn">View Demo</a>
+            <a href="#" class="btn">GitHub Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Skills Section -->
+ <section id="skills" class="section skills">
+  <div class="container">
+    <div class="section-header">
+      <h2>My Skills</h2>
+      <p>I specialize in modern technologies to build impactful digital solutions. Here's a breakdown of my proficiency:</p>
+    </div>
+
+    <div class="skills-grid-icon">
+      
+      <div class="skill-box">
+  <i class="fab fa-html5"></i>
+  <h4>HTML</h4>
+  <div class="progress"><div class="progress-bar html" style="width: 90%;"></div></div>
+  <span class="percentage">90%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fab fa-css3-alt"></i>
+  <h4>CSS</h4>
+  <div class="progress"><div class="progress-bar css" style="width: 90%;"></div></div>
+  <span class="percentage">90%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fab fa-js-square"></i>
+  <h4>JavaScript</h4>
+  <div class="progress"><div class="progress-bar js" style="width: 90%;"></div></div>
+  <span class="percentage">90%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fab fa-react"></i>
+  <h4>React.js</h4>
+  <div class="progress"><div class="progress-bar react" style="width: 75%;"></div></div>
+  <span class="percentage">75%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fab fa-laravel"></i>
+  <h4>Laravel</h4>
+  <div class="progress"><div class="progress-bar laravel" style="width: 75%;"></div></div>
+  <span class="percentage">75%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fas fa-database"></i>
+  <h4>MySQL</h4>
+  <div class="progress"><div class="progress-bar mysql" style="width: 75%;"></div></div>
+  <span class="percentage">75%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fas fa-mobile-alt"></i>
+  <h4>Flutter</h4>
+  <div class="progress"><div class="progress-bar flutter" style="width: 80%;"></div></div>
+  <span class="percentage">80%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fas fa-code"></i>
+  <h4>Dart</h4>
+  <div class="progress"><div class="progress-bar dart" style="width: 80%;"></div></div>
+  <span class="percentage">80%</span>
+</div>
+
+<div class="skill-box">
+  <i class="fab fa-git-alt"></i>
+  <h4>Git</h4>
+  <div class="progress"><div class="progress-bar git" style="width: 70%;"></div></div>
+  <span class="percentage">70%</span>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Achievement Section -->
+<section id="achievement" class="section achievement">
+    <div class="container">
+        <div class="section-header">
+            <h2>Achievements & Volunteering</h2>
+            <p>Highlights of my professional recognition and meaningful contributions through volunteering and teamwork.</p>
+        </div>
+
+        <!-- Achievements -->
+        <div class="achievement-category">
+            <h3 class="category-title">Achievements</h3>
+            <div class="projects-grid">
+                <div class="achievement-card">
+                    <img src="../Images/Asian Cyber.jpg" alt="Asian Cyber Shield Vietnam" class="achievement-img">
+                    <div class="achievement-content">
+                        <h4>Asian Cyber Shield – Vietnam</h4>
+                        <p>Represented Cambodia in a cybersecurity competition held in Vietnam, collaborating with international tech teams.</p>
+                        <a href="../Images/Cambodia_CTF_for_Cam_and_Laos_Certificate_MS_Kannika_Kak.pdf" target="_blank" class="view-certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <img src="../Images/Agro Crealab.jpg" alt="Agro Crea Lab Startup" class="achievement-img">
+                    <div class="achievement-content">
+                        <h4>Startup: Agro Crea Lab</h4>
+                        <p>Joined competition of Agro Crea Lab related to agricultural innovation.The event gathered aspiring young innovators and entrepreneurs.</p>
+                        <a href="../Certificates/agro-crea-lab-certificate.pdf" target="_blank" class="view-certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <img src="../Images/E-Robot.jpg" alt="E-Robot Poster Designer" class="achievement-img">
+                    <div class="achievement-content">
+                        <h4>E-Robot Member</h4>
+                        <p>Designed event posters related to events,ceremony and also the quote everyday and I also joined the charity with E-Robot.</p>
+                        <a href="../Images/KAK KANNIKA_Member.pdf" target="_blank" class="view-certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Volunteering -->
+        <div class="achievement-category">
+            <h3 class="category-title">Volunteering</h3>
+            <div class="projects-grid">
+                <div class="achievement-card">
+                    <img src="../Images/Teaching Volunteer.jpg" alt="Teaching Volunteer" class="achievement-img">
+                    <div class="achievement-content">
+                        <h4>Teaching Volunteer</h4>
+                        <p>Taught high school students HTML & CSS basics as part of a community tech program.</p>
+                        <a href="../Certificates/teaching-volunteer-certificate.pdf" target="_blank" class="view-certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <img src="../Images/SPIN-OFF.jpg" alt="SPIN OFF" class="achievement-img">
+                    <div class="achievement-content">
+                        <h4>SPIN OFF</h4>
+                        <p>Managed event logistics and flow coordination in university’s innovation expo.</p>
+                        <a href="../Certificates/spin-off-certificate.pdf" target="_blank" class="view-certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <img src="../Images/Geology.jpg" alt="Geology Club Cambodia" class="achievement-img">
+                    <div class="achievement-content">
+                        <h4>Geology Club Cambodia</h4>
+                        <p>Joined the volunteer that help preparing pre test for students practice before competition of Geology.</p>
+                        <a href="../Certificates/geology-volunteer-certificate.pdf" target="_blank" class="view-certificate-btn">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+ <section id="about" class="section about">
+  <div class="container">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <p>Discover my background, values, and what motivates my passion for software development.</p>
+    </div>
+
+    <div class="about-content">
+      <!-- Image Section -->
+      <div class="hero-image">
+        <div class="profile-container">
+          <div class="profile-shape"></div>
+          <!-- Optional profile image -->
+          <!-- <img src="../Images/profile.jpg" alt="Profile" class="profile-img" /> -->
+        </div>
+      </div>
+
+      <!-- Text Section -->
+      <div class="about-text">
+        <div class="about-card">
+          <h3>🎓 Who I Am</h3>
+          <p>I'm a 3rd year Computer Science student passionate about full-stack development. I’ve built collaborative university projects that sharpened both my coding and teamwork skills.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>💡 My Passion</h3>
+          <p>I enjoy creating clean, user-friendly interfaces and backends that solve real-world problems using technology.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>📚 Hobbies</h3>
+          <p>Reading tech blogs, fiction, and engaging with developer communities keeps me creative and inspired.</p>
+        </div>
+
+        <div class="about-card">
+          <h3>🤝 Soft Skills</h3>
+          <div class="soft-skills">
+            <span class="skill-badge">Teamwork</span>
+            <span class="skill-badge">Communication</span>
+            <span class="skill-badge">Problem Solving</span>
+            <span class="skill-badge">Adaptability</span>
+            <span class="skill-badge">Time Management</span>
+            <span class="skill-badge">Continuous Learning</span>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <h3>🚀 Future Goals</h3>
+          <p>I aspire to join a forward-thinking development team and contribute to high-impact tech solutions while continuously learning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+ <section id="contact" class="section contact">
+  <div class="container">
+    <div class="section-header">
+      <h2>Get In Touch</h2>
+      <p>I'm always open to new opportunities and collaborations. Let's connect and work together.</p>
+    </div>
+
+    <div class="contact-form">
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i>
+          Send Message
+        </button>
+      </form>
+    </div>
+
+    <!-- 👇 Reference Footer -->
+    <div class="reference-credit">
+      <p>© Kannika Kak</p>
+    </div>
+  </div>
+</section>
+
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Update active navigation link on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+     <script>
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const projectCards = document.querySelectorAll(".project-card");
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        // Toggle active button
+        filterButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const filter = btn.getAttribute("data-filter");
+
+        projectCards.forEach(card => {
+          const category = card.getAttribute("data-category");
+          if (filter === "all" || category === filter) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
